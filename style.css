@@ -9,6 +9,8 @@
   height: 128vh;
 }
 
+
+
 .navbar-nav {
   margin-left: auto;
 }
@@ -19,9 +21,6 @@
   color: white;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
 
 .navbar {
   position: relative;
@@ -317,14 +316,6 @@ line-height: 18.205px;
 .content {
   color: #fff;
 }
-@media screen and (max-width: 768px) {
-  .slide-content {
-    margin: 0 10px;
-  }
-  .swiper-navBtn {
-    display: none;
-  }
-}
 
 
 .section-5 {
@@ -370,14 +361,13 @@ line-height: 32px;
 
 .section-cards-text h1 {
   color: #FFF;
-
 text-align: center;
 font-family: Outfit;
 font-size: 3.7vw;
 font-style: normal;
 font-weight: 500;
 line-height: 125.5%;
-letter-spacing: -2.56px;
+
 text-transform: capitalize;
 }
 
@@ -449,6 +439,63 @@ text-transform: capitalize;
   #img--keys {
     display: none;
   }
+
+  .key-h1-2 {
+    font-size: 40px;
+  }
+
+  .key-ul-2 ul li {
+    font-size: 12px;
+    
+  }
+  .key-ul ul li {
+    font-size: 10px;
+    margin-right: 1rem;
+  }
+  #keys--texts--1 {
+    padding: 0;
+  }
+  #keys--text--2 {
+    /* margin-right: 2rem; */
+    padding: 0;
+  }
+  .section-card--h1 {
+    font-size: 40px;
+  }
+
+  
+  .section-cards-p {
+    font-size: 15px;
+  }  
+
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-navBtn {
+    margin: 0 .05rem;
+  }
+  #hero-col-2 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #hero-btn {
+    padding: 10px 20px !important;
+    margin-bottom: 2rem;
+  }
+  .header-p {
+    font-size: 15px;
+  }
+  .hero-p {
+    font-size: 12px;
+  }
+
+  .hero-text-p {
+    margin-right: 1.6rem;
+  }
+
+ 
 }
 
 .section-7 {
