@@ -45,27 +45,27 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 // Set up GSAP timeline
-const timelines = gsap.timeline({ paused: true });
+// const timelines = gsap.timeline({ paused: true });
 
 // Add animations to the timeline
-timelines.fromTo('.list-item', { opacity: 0.1, y: 20 }, { opacity: 1, y: 0, stagger: 0.2, duration: 0.5 });
+// timelines.fromTo('.list-item', { opacity: 0.1, y: 20 }, { opacity: 1, y: 0, stagger: 0.2, duration: 0.5 });
 
 // Function to play the timeline
-function playTimeline() {
-  timelines.play();
-}
+// function playTimeline() {
+//   timelines.play();
+// }
 
 // Function to reverse the timeline
-function reverseTimeline() {
-  timelines.reverse();
-}
+// function reverseTimeline() {
+//   timelines.reverse();
+// }
 
 // Add event listeners to trigger animations on hover
-const listItems = document.querySelectorAll('.list-item');
-listItems.forEach(item => {
-  item.addEventListener('mouseenter', playTimeline);
-  item.addEventListener('mouseleave', reverseTimeline);
-});
+// const listItems = document.querySelectorAll('.list-item');
+// listItems.forEach(item => {
+//   item.addEventListener('mouseenter', playTimeline);
+//   item.addEventListener('mouseleave', reverseTimeline);
+// });
    
   
    gsap.timeline({
@@ -138,19 +138,7 @@ var scene = new ScrollMagic.Scene({
   .addTo(controller);
 
 
-var controller = new ScrollMagic.Controller();
-var timeline = gsap.timeline();
 
-timeline.from("#key--button button", { opacity: 0, x: -50, stagger: 0.2 });
-
-// Create a ScrollMagic scene
-var scene = new ScrollMagic.Scene({
-  triggerElement: "#key--button",
-  reverse: true,
-  offset: 0, 
-})
-  .setTween(timeline)
-  .addTo(controller);
 
 var controller = new ScrollMagic.Controller();
 var timeline = gsap.timeline();
@@ -533,3 +521,4 @@ var scene = new ScrollMagic.Scene({
 
 
  
+  
