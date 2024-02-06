@@ -4,12 +4,12 @@
 function expoEaseInOut(t) {
     return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
   }
-gsap.from('#mainNav', 1.2, {opacity: 0, y: -150, delay: 0.5})
-gsap.from('.header-h1', 1.2, {opacity: 0, x: -150, delay: 1.5, ease: expoEaseInOut,})
-gsap.from('.header-p', 1.2, {opacity: 0, x: -150, delay: 2, ease: expoEaseInOut,})
-gsap.from('.header-btn', 1.2, {opacity: 0, y: -150, delay: 2.5, ease: expoEaseInOut,})
-gsap.from('.header-img', 1.2, {opacity: 0, y: -150, delay: 3, ease: expoEaseInOut,})
-gsap.from('.header-main-img', 1.2, {opacity: 0, x: -150, delay: 1, ease: expoEaseInOut,})
+gsap.from('#mainNav', 1.2, {opacity: 0, y: -150, delay: .2})
+gsap.from('.header-h1', 1.2, {opacity: 0, x: -150, delay: .5, ease: expoEaseInOut,})
+gsap.from('.header-p', 1.2, {opacity: 0, x: -150, delay: .8, ease: expoEaseInOut,})
+gsap.from('.header-btn', 1.2, {opacity: 0, y: -150, delay: 1, ease: expoEaseInOut,})
+gsap.from('.header-img', 1.2, {opacity: 0, y: -150, delay: 1.2, ease: expoEaseInOut,})
+gsap.from('.header-main-img', 1.2, {opacity: 0, x: -150, delay: 1.5, ease: expoEaseInOut,})
 
 
 
@@ -93,6 +93,7 @@ var scene = new ScrollMagic.Scene({
 })
   .setTween(timeline)
   .addTo(controller);
+
 
   ///////
 var controller = new ScrollMagic.Controller();
