@@ -329,7 +329,7 @@ var scene = new ScrollMagic.Scene({
     var controller = new ScrollMagic.Controller();
   var timeline = gsap.timeline();
   
-  timeline.from(".img-plan-1", { opacity: 0, x: -50, stagger: 0.2, delay: 1.5});
+  timeline.from(".img-plan-1", { opacity: 0, x: -30, stagger: 0.2});
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -343,7 +343,7 @@ var scene = new ScrollMagic.Scene({
     var controller = new ScrollMagic.Controller();
   var timeline = gsap.timeline();
   
-  timeline.from(".img-plan", { opacity: 0, y: 50, stagger: 0.2, delay: 1.5});
+  timeline.from(".img-plan", { opacity: 0, y: 30, stagger: 0.2});
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -418,7 +418,7 @@ var scene = new ScrollMagic.Scene({
   /////BOX////////////
   
  
-  timeline.from("#boxs-imgs-1", { opacity: 0, y: 15, stagger: 0.2, });
+  timeline.from("#boxs-imgs-1", { opacity: 0, y:10, stagger: 0, });
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -432,7 +432,7 @@ var scene = new ScrollMagic.Scene({
   
 
 
-  timeline.from("#boxs-imgs-2", { opacity: 0, y: 15, stagger: 0.2, });
+  timeline.from("#boxs-imgs-2", { opacity: 0, y: 10, stagger: 0, });
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -442,7 +442,7 @@ var scene = new ScrollMagic.Scene({
   })
     .setTween(timeline)
     .addTo(controller);
-  timeline.from("#boxs-imgs-3", { opacity: 0, y: 15, stagger: 0.2, });
+  timeline.from("#boxs-imgs-3", { opacity: 0, y:10, stagger: 0, });
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -452,7 +452,7 @@ var scene = new ScrollMagic.Scene({
   })
     .setTween(timeline)
     .addTo(controller);
-  timeline.from("#boxs-imgs-4", { opacity: 0, y: 15, stagger: 0.2, });
+  timeline.from("#boxs-imgs-4", { opacity: 0, y:10, stagger: 0, });
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -462,7 +462,7 @@ var scene = new ScrollMagic.Scene({
   })
     .setTween(timeline)
     .addTo(controller);
-  timeline.from("#boxs-imgs-5", { opacity: 0, y: 15, stagger: 0.2, });
+  timeline.from("#boxs-imgs-5", { opacity: 0, y: 10, stagger: 0, });
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
@@ -474,7 +474,7 @@ var scene = new ScrollMagic.Scene({
     .addTo(controller);
 
     
-  timeline.from("#boxs-imgs-6", { opacity: 0, y: 15, stagger: 0.2, });
+  timeline.from("#boxs-imgs-6", { opacity: 0, y: 10, stagger: 0, });
   
   // Create a ScrollMagic scene
   var scene = new ScrollMagic.Scene({
